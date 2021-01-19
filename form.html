@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+ body {
+ background-color: grey;
+}
+</style>
+</head>
+<body>
+<form>
+<input type="radio" name="man" value="man">
+<label for="man"> Man</label>
+<input type="radio" name="kvinna" value="kvinna">
+<label for="kvinna">Kvinna </label>
+<input type="radio" name="okänt" value="okänt">
+<label for="okänt">Okänt</label>
+</form>
+<br>
+<form>
+<label for="rang">0</label>
+<input type="range" min="0" max="10" name="rang" value="5" id="rang">
+<label for="rang">10</label>
+<br>
+<br>
+<label for="number">Nummer 1-6:</label>
+<input type="number" name="dice" id="dice" min="1" max="6" value="3">
+<br><br>
+<p> Välj lämplig storlek:</p>
+<input type="checkbox" name="fordon1" value="båt" checked>
+<label for="fordon1">Jag har en båt</label>
+<input type="checkbox" name="fordon2" value="bil">
+<label for="fordon2">Jag har en bil</label>
+<input type="checkbox" name="fordon3" value="cykel" checked>
+<label for="fordon3">Jag har en cykel</label>
+</form>
+<br>
+<form>
+<label for="cars"> Välj din bil:</label>
+<select id="cars" name="cars" multiple> --!> size='2' multiple (Fler val) <--
+    <option value="Volvo"> Volvo </option>
+    <option value="Saab"> Saab </option>
+    <option value="Renault">Renault</option>
+    <option value="Volkswagen">Volkswagen</option>
+</select>
+</form>
+<br>
+
+<form>
+<input list="fotbollslag" name="fotbollslag">
+    <datalist id="fotbollslag">
+    <option value="Malmö FF"></option>
+    <option value="Helsingborgs IF"></option>
+    <option value="Trelleborgs FF"></option>
+    <option value="Landskrona BOIS"></option>
+    </datalist>
+    <input type="submit" value="Sänd">
+</form>
+<br>
+<form>
+<label for="myfile">Ladda upp fil</label>
+<input type="file" id="myfile" name="myfile">
+
+</form>
+</body>
+</html>

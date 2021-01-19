@@ -1,0 +1,44 @@
+body {
+  background-color:#8b0000;
+}
+
+h1, h2, h3 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:white;
+
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: underline;
+  font-size: 18px;
+
+}
+
+.topnav a:hover {
+background-color: #8b0000;
+color: black;
+}
+
+.right a {
+  float: right;
+  text-align: center;
+  padding: 8px
+
+  }
+
+.right-a-hover a:hover {
+  background-color: transparent;
+  }

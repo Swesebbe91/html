@@ -1,0 +1,107 @@
+body {
+background-color: white;
+font-family: Verdana, Arial;
+font-size: 12px;
+}
+
+h2 {
+font-size: 36px;
+font-weight: normal;
+color: red;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+p {margin-left: 20px;
+   margin-right: 20px;
+}
+
+.greyblock {
+padding: 20px;
+background-color: grey;
+}
+
+.top {
+  overflow: hidden;
+  background-color: red;
+
+}
+
+.toppen {
+  float: left;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  border-right: 3px solid white;
+  width: 10%;
+}
+.around {
+border: 2px solid white;
+}
+.righttoppen {
+  float: right;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  width: 2%;
+}
+
+.leftline {
+  border-left: 3px solid white;
+}
+
+.toppen:hover {
+  background-color: white;
+  color: orange;
+}
+
+.banner {
+box-sizing: border-box;
+width: 100%;
+height: 300px;
+background-image: url(../media/bilder/track.jpg);
+border: 1px solid black;
+background-size: 100% 100%;
+}
+
+.wrapped {
+height: 1600px;
+width: 100%;
+background-color: blue;
+}
+
+.fyrkant {
+height: 200px;
+width: 400px;
+margin: auto;
+background-color: black;
+color: white;
+}
+
+footer {
+background-color: red;
+width: 100%;
+height: 40px;
+}
+
+.bott {
+text-align: right;
+color: white;
+font-size: 8 px;
+}
+
+.textblock {
+margin-left: 20 px;}
+
+.ula {
+float:left;
+height: 150px;
+width: 20%;
+padding: 20px;
+background-color:black;
+color: white;
+text-align:center;}
